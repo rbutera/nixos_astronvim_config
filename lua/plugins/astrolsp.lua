@@ -40,7 +40,19 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      -- "pyright"
+      "rust_analyzer",
+      "lua_ls",
+      "pyright",
+      "tailwindcss",
+      "nil_ls",
+      "svelte",
+      "yamlls",
+      "gopls",
+      "dockerls",
+      -- Gleam doesn't have a separate LSP, you might need to configure this differently
+      "jsonls",
+      "bashls",
+      "tsserver",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
